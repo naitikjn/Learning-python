@@ -1,3 +1,3 @@
 
 
-print("Committing to github")
+print("Committing")
