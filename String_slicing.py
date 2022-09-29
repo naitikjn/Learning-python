@@ -10,3 +10,15 @@ print(abc.count("p"))
 print(abc.capitalize())
 print(abc.upper())
 print(abc.replace("programming" , "Python"))
+
+
+#lists in python
+groceries = ["Nescafe","Horlicks","No.1","fena","Wheel","Vim bar","Lollypop"]
+#print(groceries[0:5])
+Numbers = [2,5,4,9,7]
+Numbers.sort()
+Numbers.reverse()
+print(Numbers)
+groceries2 = ["Nescafe","Horlicks","No.1","\n"]
+print(groceries2)
+print('Hello World!')
