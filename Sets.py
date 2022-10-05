@@ -14,3 +14,11 @@ print(max(s1))
 print(min(s))
 s1 = {1,2}
 print(s.isdisjoint(s1))
+
+
+print("Hello world",end= " ")
+print("next line")
+print("C:\\naitik")
+print("naitik \n is \n good \n boy \t  ")      # Escape sequence
+print("miss hill \b school")
+
