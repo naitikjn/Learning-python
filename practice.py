@@ -29,3 +29,18 @@ print(abc.count("p"))
 print(abc.capitalize())
 print(abc.upper())
 print(abc.replace("programming" , "Python"))
+Numbers = []
+Numbers.append(25)
+Numbers.append(15)
+Numbers.append(26)
+#Numbers.sort()
+#Numbers.reverse()
+Numbers.insert(2 ,5)
+Numbers.remove(5)
+
+
+print("Enter the number")
+n1 = input()
+print("Enter the number")
+n2 = input()
+print("Sum of these numbers: ", int(n1) + int(n2))
