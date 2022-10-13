@@ -6,7 +6,7 @@ var3 =int(input())
 if var3>var2:
     print("Greator")
 
-<<<<<<< HEAD
+
 else:
     print("Lesser")
      print(d2["Rohit"])

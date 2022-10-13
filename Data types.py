@@ -3,7 +3,7 @@ var2 = "Trendy tech"
 var3 = 56
 var4 = 14
 
-print(str(var3) + str(var4))
+print(str(var1) + str(var2))
 print(100* "hello world \n")
 print("enter your number")
 abcd = input()
