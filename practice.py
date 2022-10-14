@@ -51,4 +51,25 @@ print(len(mystr))            # length of String
 print(mystr[-8:-5])          # Indexing in String
 print(mystr[-10])
 abc = 'Python is a programming language'
-print(abc.find("is"))                                  #
+print(abc.find("is"))
+
+
+Numbers.insert(2 ,5)
+Numbers.remove(5)
+#Numbers.pop()
+Numbers[2] = 2
+print(Numbers)
+# Mutable = can change
+# Immutable = can not change
+# Tuple
+tp = (1,2,3)
+print(tp)
+a = 1
+b = 8
+temp = a
+a = b
+temp = b
+print(a,b)
+groceries = ["Nescafe","Horlicks","No.1","fena","Wheel"]
+print(groceries)
+print("exit code")
