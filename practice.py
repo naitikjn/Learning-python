@@ -73,3 +73,24 @@ print(a,b)
 groceries = ["Nescafe","Horlicks","No.1","fena","Wheel"]
 print(groceries)
 print("exit code")
+
+
+list1 = [["HRM",301], ["statistics",302], ["income tax and practices",303],["e-commerce",304],["management principles",305]]
+print(list1)
+for item in list1:
+    print(item)
+dict1 = dict(list1)
+for item in dict1:
+    print(item)
+list2 = (["kurkure",5],["fritts",10],["cheese balls",20])
+for item in dict1.items():
+    print(item)
+for item,price in list2:
+    print(item,"@",price)
+subjects = ["maths", "moral_science","general_knowledge","english", "hindi", "sanskrit", 10, 20, 40, 50, 70, 80, 100 ]
+for item in subjects:
+    if str(item).isnumeric() and item>=30:
+        print(item)
+for item in subjects:
+    if str(item).isalpha():
+        print(item)
