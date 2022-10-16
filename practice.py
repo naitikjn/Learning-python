@@ -94,3 +94,25 @@ for item in subjects:
 for item in subjects:
     if str(item).isalpha():
         print(item)
+print(5)
+
+#while loops
+i = 1
+
+while (True):
+    i = i+1
+    if (i + 1 <10):
+         print (i + 1)
+
+         while (i == 100):
+             i = i + 1
+             print(i + 1, end="  ")
+             if (i > 44):
+                 i = i + 1
+             print(i + 1, end="  ")
+             break
+             if (i < 48):
+                 i = i + 2
+                 break
+
+
