@@ -29,3 +29,21 @@ print(y)
 z = 10
 z /= 5
 print(z)
+
+z_1 = 5
+z_1 =- 5
+print(z_1)
+
+
+#Comparison operator
+a = 8
+print(a==8)
+print(a<=5)
+print(a>=5)
+
+
+
+#Logical operator
+b = 8
+print(b and 8)
+print(b or 5)
