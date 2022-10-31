@@ -13,10 +13,12 @@ function1()
 function1()
 function1()
 
-
 def function2(a, b):
     average =  (a+b)/2
     print(average)
 function2()
 
+
+num1 = input("1")
+print(num1)
 
