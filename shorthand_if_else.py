@@ -7,4 +7,10 @@ elif a==b: print("same hai")
 
 
 num1 = input("1")
-print(num1)
+num2 = input("2")
+sum(num1+num2)
+
+
+
+print(sum)
+
