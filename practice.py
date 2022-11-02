@@ -115,4 +115,22 @@ while (True):
                  i = i + 2
                  break
 
+a = True
+b = False
+print(5 is not 5)
+print(5 or 8)
+print(5 and 5)
+
+#Membership operator
+List = [5 , 55 , 65 , 48 , 14 , 25 , 47 , 65 , 32 , 24 , 15 , 20 , 10 , 85]
+print(32 or 14 in List)
+print(85 and 20 in List)
+print(48 is not List)
+
+a = int(input("enter num a :\n"))
+b = int(input("enter num b :\n"))
+
+if a<b: print("b is greator than a")
+elif a==b: print("same hai")
+
 
