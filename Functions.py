@@ -8,15 +8,16 @@ print(c)
 def function1(a,b):
     print("Hello you are in function1",a+b)
 
+
 function1()
 function1()
 function1()
 function1()
 
-def function2(a, b):
-    average =  (a+b)/2
+def function2(a,b):
+    average =(a+b)/2
     print(average)
-function2()
+function2(56,67)
 
 
 num1 = input("1")

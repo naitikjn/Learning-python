@@ -134,3 +134,26 @@ if a<b: print("b is greator than a")
 elif a==b: print("same hai")
 
 
+#sets
+s = set()
+print(type(s))
+s_from_list = (1,2,3,4)
+print(s_from_list)
+print(type(s_from_list))
+l = [1,3,5,7,9]
+s = set(l)
+print(s)
+s.add(8)
+s.add(8)
+print(s)
+s.remove(8)
+print(s)
+s1 = (0,8,6,4,2)
+print(s.isdisjoint(s1))
+print(max(s))
+print(min(s1))
+s2 = s.intersection({11,12,13})
+s3 = s.union({90,60,30})
+print(s,s3)
+
+
