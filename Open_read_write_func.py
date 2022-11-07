@@ -1,7 +1,7 @@
 f = open("practice.py")
 content = f.read()
 print(content)
-#f.close()
+f.close()
 
 f = open("practice.py")
 content = f.read()

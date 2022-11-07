@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="05/11/2022 - Saturday&#10;Today's work">
-      <change afterPath="$PROJECT_DIR$/Open_read_write_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO_Basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/IO_Basics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_Else_Elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/if_Else_Elif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open_read_write_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open_read_write_func.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +37,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/riyaj/PycharmProjects/FirstProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Open_read_write_func">
     <configuration name="Break_and_continue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
