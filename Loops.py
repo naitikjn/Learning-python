@@ -34,3 +34,4 @@ while(i<50):
 list1 = ['harry', 1], ['larry', 2], ['smith', 3]
 for item , lollypop in list1:
     print(item,"and mohan is", lollypop)
+    None

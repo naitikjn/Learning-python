@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="05/11/2022 - Saturday&#10;Today's work">
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="07/11/2022 - Monday&#10;Today's work">
+      <change afterPath="$PROJECT_DIR$/File_write.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Open_read_write_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open_read_write_func.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Open_read_write_func">
+  <component name="RunManager" selected="Python.Loops">
     <configuration name="Break_and_continue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,9 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Open_read_write_func" />
-        <item itemvalue="Python.if_Else_Elif" />
         <item itemvalue="Python.Loops" />
+        <item itemvalue="Python.if_Else_Elif" />
+        <item itemvalue="Python.Open_read_write_func" />
         <item itemvalue="Python.functions riya" />
         <item itemvalue="Python.Break_and_continue" />
       </list>
@@ -412,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667659365377</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="07/11/2022 - Monday&#10;Today's work">
+      <created>1667827036158</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667827036158</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,6 +452,7 @@
     <MESSAGE value="25/09/2022 sunday&#10;Today's work" />
     <MESSAGE value="26/09/2022 monday&#10;Today's work" />
     <MESSAGE value="05/11/2022 - Saturday&#10;Today's work" />
-    <option name="LAST_COMMIT_MESSAGE" value="05/11/2022 - Saturday&#10;Today's work" />
+    <MESSAGE value="07/11/2022 - Monday&#10;Today's work" />
+    <option name="LAST_COMMIT_MESSAGE" value="07/11/2022 - Monday&#10;Today's work" />
   </component>
 </project>

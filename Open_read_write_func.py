@@ -14,4 +14,4 @@ for line in f:
     print(line)
 
 for line in f:
-    print(line, end="")
+    print(line, end=""l
