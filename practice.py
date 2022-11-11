@@ -21,7 +21,7 @@ l = [1,3,5,7,9]
 s = set(l)
 print(s)
 s.add(8)
-s.add(8)
+s.add(5)
 print(s)
 s.remove(8)
 print(s)
