@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="09/11/2022 - Wednesday&#10;Today's work">
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="11/11/2022 -Friday&#10;Today's work">
+      <change afterPath="$PROJECT_DIR$/Write_appending.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if_Else_Elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/if_Else_Elif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/riyaexercise.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Loops">
-    <configuration name="Break_and_continue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FirstProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Break_and_continue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Write_appending">
     <configuration name="Loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Open_read_write_func.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Write_appending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Write_appending.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Write_appending" />
         <item itemvalue="Python.Loops" />
         <item itemvalue="Python.if_Else_Elif" />
         <item itemvalue="Python.Open_read_write_func" />
         <item itemvalue="Python.functions riya" />
-        <item itemvalue="Python.Break_and_continue" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668010317752</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="11/11/2022 -Friday&#10;Today's work">
+      <created>1668179507438</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668179507438</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,6 +476,7 @@
     <MESSAGE value="07/11/2022 - Monday&#10;Today's work" />
     <MESSAGE value="08/11/2022 - Tuesday&#10;Today's work" />
     <MESSAGE value="09/11/2022 - Wednesday&#10;Today's work" />
-    <option name="LAST_COMMIT_MESSAGE" value="09/11/2022 - Wednesday&#10;Today's work" />
+    <MESSAGE value="11/11/2022 -Friday&#10;Today's work" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/11/2022 -Friday&#10;Today's work" />
   </component>
 </project>
