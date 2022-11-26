@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="24/11/2022&#10;Thursday">
-      <change afterPath="$PROJECT_DIR$/Time_Module.py" afterDir="false" />
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="25/11/2022&#10;Friday">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -524,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669303655445</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="25/11/2022&#10;Friday">
+      <created>1669387273993</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1669387273994</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,6 +570,7 @@
     <MESSAGE value="17/11/2022 -thursday&#10;Today's work" />
     <MESSAGE value="hello" />
     <MESSAGE value="24/11/2022&#10;Thursday" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/11/2022&#10;Thursday" />
+    <MESSAGE value="25/11/2022&#10;Friday" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/11/2022&#10;Friday" />
   </component>
 </project>
