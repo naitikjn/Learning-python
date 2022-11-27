@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="25/11/2022&#10;Friday">
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Time_Module">
+  <component name="RunManager" selected="Python.practice">
     <configuration name="Global_variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,10 +193,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.practice" />
         <item itemvalue="Python.Time_Module" />
         <item itemvalue="Python.argkw" />
         <item itemvalue="Python.Rec" />
-        <item itemvalue="Python.practice" />
         <item itemvalue="Python.Global_variables" />
       </list>
     </recent_temporary>
@@ -530,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669387273994</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="hello">
+      <created>1669477802427</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669477802427</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,9 +577,9 @@
     <MESSAGE value="12/11/2022 -Saturday&#10;Today's work" />
     <MESSAGE value="15/11/2022 -tuesday&#10;Today's work" />
     <MESSAGE value="17/11/2022 -thursday&#10;Today's work" />
-    <MESSAGE value="hello" />
     <MESSAGE value="24/11/2022&#10;Thursday" />
     <MESSAGE value="25/11/2022&#10;Friday" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/11/2022&#10;Friday" />
+    <MESSAGE value="hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
 </project>
