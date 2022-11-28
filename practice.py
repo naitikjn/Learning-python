@@ -60,3 +60,5 @@
 #     print(f"this function is a joke {str}")
 
 
+import if__name
+print(if__name.add (15,25))
