@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Join_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Join_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Map_Filter">
+  <component name="RunManager" selected="Python.if__name">
     <configuration name="Map_Filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,9 +192,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.if__name" />
         <item itemvalue="Python.Map_Filter" />
         <item itemvalue="Python.practice" />
-        <item itemvalue="Python.if__name" />
         <item itemvalue="Python.Time_Module" />
         <item itemvalue="Python.argkw" />
       </list>
