@@ -573,5 +573,87 @@ if noofchance==chance:
         str2 = "  "  # using Tab
         print(str2.isspace())
 
+# If __name__==__main__ usage & necessity
+if __name__ == '__main__':
+  def printhar(str) :
+    str = "sahab"
+    return f"yeh string mujhe dede thakur {str}"
+    print(printhar(str))
+
+if __name__ == '__main__':
+    def add(num1, num2):
+     return num1 + num2 +5
+    o = add(4, 6)
+print(o)
+
+# o = "num1"
+# o = int(input("Enter the number: "))
+# p = 'num2'
+# p = int(input("Enter the number: "))
+# print(o+p)
+#
+
+# a = 5             # Global
+# def function1(x):
+#     a
+#     m = 5         # Local
+#     print(a,m)
+#     print(x,"this is me")
+#
+# function1("I have printed")
+# print(a)
+a = 10
+def function1(x):
+
+    m = 5         # Local
+    global a
+    a = a + 10
+    print(a,m)
+    print(x,"this is me")
+
+function1("I have printed")
+print(a)
+
+
+# def function1():
+#     print("Subscribe now")
+#
+# func2 = function1
+# del function1
+# func2()
+
+# def funcret(num):
+#     if num==0:
+#         return print
+#     if num==1:
+#         return sum
+#
+# a = funcret(1)
+# print(a)
+
+# def executor(func):
+#     func("this")
+#
+#
+# executor(print)
+
+def dec1(func1):
+    def nowexec():
+        print("Executing now")
+        func1()
+        print("Executed")
+
+    return nowexec
+
+
+@dec1
+def who_is_harry():
+    print("Harry is a good boy")
+
+
+# who_is_harry = dec1(who_is_harry)
+
+who_is_harry()
+
 
 
