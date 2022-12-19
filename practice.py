@@ -954,3 +954,98 @@ print(Employee.no_of_leaves)
 
 
 
+# class Employee:
+#     no_of_leaves = 8
+#     pass
+#
+# harry = Employee()
+# rohan = Employee()
+#
+# harry.name = "Harry"
+# harry.salary = 455
+# harry.role = "Instructor"
+#
+# rohan.name = "Rohan"
+# rohan.salary = 4554
+# rohan.role = "Student"
+#
+# print(Employee.no_of_leaves)
+# print(Employee.__dict__)
+# Employee.no_of_leaves = 9
+# print(Employee.__dict__)
+# print(Employee.no_of_leaves)
+#
+#
+#
+#
+
+name = input("Enter the name: ")
+print(name)
+b_g = input('boy or girl: ')
+print(b_g)
+
+age = int(input("Enter your age"))
+
+if age>=18:
+    print("you are eligible to vote, quickly make your voter card")
+else:
+    print("you are not eligible for vote,wait for some time")
+
+
+# If __name__==__main__ usage & necessity
+if __name__ == '__main__':
+  def printhar(str) :
+    str = "sahab"
+    return f"yeh string mujhe dede thakur {str}"
+    print(printhar(str))
+
+if __name__ == '__main__':
+    def add(num1, num2):
+     return num1 + num2 +5
+    o = add(4, 6)
+print(o)
+
+# o = "num1"
+# o = int(input("Enter the number: "))
+# p = 'num2'
+# p = int(input("Enter the number: "))
+# print(o+p)
+#
+
+
+class Student:
+    pass
+
+
+harry = Student()
+larry = Student()
+
+harry.name = "Harry"
+harry.std = 12
+harry.section = 1
+larry.std = 9
+larry.subjects = ["hindi", "physics"]
+print(harry.section, larry.subjects)
+
+
+class Employee:
+    no_of_leaves = 8
+    pass
+
+harry = Employee()
+rohan = Employee()
+
+harry.name = "Harry"
+harry.salary = 455
+harry.role = "Instructor"
+
+rohan.name = "Rohan"
+rohan.salary = 4554
+rohan.role = "Student"
+
+print(Employee.no_of_leaves)
+print(Employee.__dict__)
+Employee.no_of_leaves = 9
+print(Employee.__dict__)
+print(Employee.no_of_leaves)
+
