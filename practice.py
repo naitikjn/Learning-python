@@ -1047,5 +1047,179 @@ print(Employee.no_of_leaves)
 print(Employee.__dict__)
 Employee.no_of_leaves = 9
 print(Employee.__dict__)
-print(Employee.no_of_leaves)
-
+print(Employee.no_of_leaves
+# #
+# # var3 = int(input())
+# # if var3>var2:
+# #     print("greater")
+# #
+# # elif var3==var2:
+# #     print("equal")
+# #
+# # else:
+# #    print("lesser")
+# # #sets
+# # sst = (1,2,3,4)
+# # print(s_from_ = set()
+# # print(type(s))
+# # s_from_lilist)
+# # print(type(s_from_list))
+# # l = [1,3,5,7,9]
+# # s = set(l)
+# # print(s)
+# # s.add(8)
+# # s.add(5)
+# # print(s)
+# # s.remove(8)
+# # print(s)
+# #
+# # #types python
+# # print(str(var1) + str(var2))
+# # print(100* "hello world \n")
+# # print("enter your number")
+# # abcd = input()
+# #
+# # print("you entered", int(abcd) + 1)
+# #
+# # import sys
+# # print( sys.path)
+# #
+# # # There are two methods to use functions or variables after importing:
+# # # The first one is to import using an object. For this, we usually import the whole module by using a simple import statement. When we use only the import keyword, we will import the resource directly, like this:
+# # # import sklearn
+# # # When we use the second syntax, we will import the resource from another package or module. Here is an example:
+# # # from flask import Flask
+# # # We can also choose to rename an imported resource, like this:
+# # # import pandas as pd
+# # from sklearn.ensemble import RandomForestClassifier
+# #
+# # print(RandomForestClassifier())
+# #
+# # import file2
+# #
+# # print(file2.a)
+# #
+# # file2.printjoke("This is me")
+# # a = 7
+# #
+# #
+# # def printjoke(str):
+# # #     print(f"this function is a joke {str}")
+# #
+# #
+# # import if__name
+# # print(if__name.add (15,25))
+# import random  # For generating random numbers
+# import sys  # To exit the program
+# import pygame  # pip install pygame
+# from pygame.locals import *
+#
+# # Global Variables for the game
+# FPS = 32
+# SCREENWIDTH = 289
+# SCREENHEIGHT = 511
+# SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
+# GROUNDY = SCREENHEIGHT * 0.8
+# GAME_SPRITES = {}
+# GAME_SOUNDS = {}
+# PLAYER = 'gallery/sprites/bird.png'
+# BACKGROUND = 'gallery/sprites/background.png'
+# PIPE = 'gallery/sprites/pipe.png'
+#
+#
+# def welcomeScreen():
+#     playerx = int(SCREENWIDTH / 5)
+#     playery = int((SCREENHEIGHT - GAME_SPRITES['player'].get_height()) / 2)
+#     messagex = int((SCREENWIDTH - GAME_SPRITES['message'].get_width()) / 2)
+#     messagey = int(SCREENHEIGHT * 0.13)
+#     basex = 0
+#     while True:
+#         for event in pygame.event.get():
+#             # if user clicks on cross button, close the game
+#             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
+#                 pygame.quit()
+#                 sys.exit()
+#
+#             # If the user presses space or up key, start the game for them
+#             elif event.type == KEYDOWN and (event.key == K_SPACE or event.key == K_UP):
+#                 return
+#             else:
+#                 SCREEN.blit(GAME_SPRITES['background'], (0, 0))
+#                 SCREEN.blit(GAME_SPRITES['player'], (playerx, playery))
+#                 SCREEN.blit(GAME_SPRITES['message'], (messagex, messagey))
+#                 SCREEN.blit(GAME_SPRITES['base'], (basex, GROUNDY))
+#                 pygame.display.update()
+#                 FPSCLOCK.tick(FPS)
+#
+#
+# def mainGame():
+#     score = 0
+#     playerx = int(SCREENWIDTH / 5)
+#     playery = int(SCREENWIDTH / 2)
+#     basex = 0
+#
+#     # Create 2 pipes for blitting on the screen
+#     newPipe1 = getRandomPipe()
+#     newPipe2 = getRandomPipe()
+#
+#     # List of upper pipes
+#     upperPipes = [
+#         {'x': SCREENWIDTH + 200, 'y': newPipe1[0]['y']},
+#         {'x': SCREENWIDTH + 200 + (SCREENWIDTH / 2), 'y': newPipe2[0]['y']},
+#     ]
+#     # List of lower pipes
+#     lowerPipes = [
+#         {'x': SCREENWIDTH + 200, 'y': newPipe1[1]['y']},
+#         {'x': SCREENWIDTH + 200 + (SCREENWIDTH / 2), 'y': newPipe2[1]['y']},
+#     ]
+#
+#     pipeVelX = -4
+#
+#     playerVelY = -9
+#     playerMaxVelY = 10
+#     playerMinVelY = -8
+#     playerAccY = 1
+#
+#     playerFlapAccv = -8  # velocity while flapping
+#     playerFlapped = False  # It is true only when the bird is flapping
+#
+#     while True:
+#         for event in pygame.event.get():
+#             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
+#                 pygame.quit()
+#                 sys.exit()
+#             if event.type == KEYDOWN and (event.key == K_SPACE or event.key == K_UP):
+#                 if playery > 0:
+#                     playerVelY = playerFlapAccv
+#                     playerFlapped = True
+#                     GAME_SOUNDS['wing'].play()
+#
+#         crashTest = isCollide(playerx, playery, upperPipes,
+#                               lowerPipes)  # This function will return true if the player is crashed
+#         if crashTest:
+#             return
+#
+#             # check for score
+#         playerMidPos = playerx + GAME_SPRITES['player'].get_width() / 2
+#         for pipe in upperPipes:
+#             pipeMidPos = pipe['x'] + GAME_SPRITES['pipe'][0].get_width() / 2
+#             if pipeMidPos <= playerMidPos < pipeMidPos + 4:
+#                 score += 1
+#                 print(f"Your score is {score}")
+#                 GAME_SOUNDS['point'].play()
+#
+#         if playerVelY < playerMaxVelY and not playerFlapped:
+#             playerVelY += playerAccY
+#
+#         if playerFlapped:
+#             playerFlapped = False
+#         playerHeight = GAME_SPRITES['player'].get_height()
+#         playery = playery + min(playerVelY, GROUNDY - playery - playerHeight)
+#
+#         # Moving Pipes
+#         for upperPipe, lowerPipe in zip(upperPipes, lowerPipes):
+#             upperPipe['x'] += pipeVelX
+#             lowerPipe['x'] += pipeVelX
+#
+#         # Adding Pipes
+#
