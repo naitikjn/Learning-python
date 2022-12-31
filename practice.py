@@ -1428,3 +1428,36 @@ def function1(x):
 
 function1("I have printed")
 print(a)
+   a
+#     m = 5         # Local
+#     print(a,m)
+#     print(x,"this is me")
+#
+# function1("I have printed")
+# print(a)
+a = 10
+def function1(x):
+    x = int(input("Enter the value of x: "))
+    # x is the variable to match
+    match x:
+        # if x is 0
+        case 0:
+            print("x is zero")
+        # case with if-condition
+        case 4:
+            print("case is 4")
+
+        case _ if x != 90:
+            print(x, "is not 90")
+        case _ if x != 80:
+            print(x, "is not 80")
+        case _:
+            print(x)
+    m = 5         # Local
+    global a
+    a = a + 10
+    print(a,m)
+    print(x,"this is me")
+
+function1("I have printed")
+print(a)
