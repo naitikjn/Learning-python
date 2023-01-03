@@ -53,9 +53,12 @@
 #     print(i)
 
 # use of range function
-name = 'naitik'
-for i in range(0,20001):
-    print(i)
+# name = 'naitik'
+# for i in range(0,20001):
+#     print(i)
 
-
-
+# Print table of any number
+num = int(input("Enter the number:"))
+i = 0
+for i in range(1,11):
+    print(num,'x',i,'=',i*num)
