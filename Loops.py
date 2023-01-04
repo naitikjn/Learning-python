@@ -58,7 +58,7 @@
 #     print(i)
 
 # Print table of any number
-num = int(input("Enter the number:"))
+num = float(input("Enter the number: "))
 i = 0
 for i in range(1,11):
     print(num,'x',i,'=',i*num)
