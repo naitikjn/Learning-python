@@ -58,7 +58,15 @@
 #     print(i)
 
 # Print table of any number
-num = float(input("Enter the number: "))
-i = 0
-for i in range(1,11):
-    print(num,'x',i,'=',i*num)
+# num = float(input("Enter the number: "))
+# i = 0
+# for i in range(1,11):
+#     print(num,'x',i,'=',i*num)
+
+# while loops in python
+
+i =0
+while(i<3):
+    print("hello",i)
+    i = i + 1
+print("done with the loop" )
