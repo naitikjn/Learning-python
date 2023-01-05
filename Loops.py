@@ -73,9 +73,18 @@ i =0
 
 
 # Break statements in loop
-for i in range(0,15):
-    print("Hello world!",i)
-    if (i==10):
+# for i in range(0,15):
+#     print("Hello world!",i)
+#     if (i==10):
+#
+#         break
+# print("Done with the loop")
 
+i = 1
+while True:
+    print(i)
+    i = i + 1
+
+    if (i==30):
+        print("Loop is over")
         break
-print("Done with the loop")
