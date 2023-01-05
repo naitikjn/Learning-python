@@ -66,7 +66,16 @@
 # while loops in python
 
 i =0
-while(i<3):
-    print("hello",i)
-    i = i + 1
-print("done with the loop" )
+# while(i<3):
+#     print("hello",i)
+#     i = i + 1
+# print("done with the loop" )
+
+
+# Break statements in loop
+for i in range(0,15):
+    print("Hello world!",i)
+    if (i==10):
+
+        break
+print("Done with the loop")
