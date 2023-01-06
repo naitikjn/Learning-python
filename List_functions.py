@@ -33,7 +33,28 @@
 # groceries = ["Nescafe","Horlicks","No.1","fena","Wheel"]
 # print(groceries)
 # print("exit code")
-l = ['abc',23,'mouse',[0,1,2,3]]
-print(l)
-l.append(5)
-print(l)
+# l = ['abc',23,'mouse',[0,1,2,3]]
+# print(l)
+# l.append(5)
+# print(l)
+
+fruits = ["apple","mango","banana","orange","Grapes"]
+print(fruits)
+vegetables = ["tomato","potato","peas","chilli"]
+print(vegetables)
+fruits.append("watermelon")
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.clear()
+print(fruits)
+fruits.copy()
+print(fruits)
+
+
+fruits.pop()
+print(fruits)
+fruits.index
+print(fruits)
