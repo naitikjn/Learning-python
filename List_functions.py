@@ -62,6 +62,10 @@
 marks = ["98","99","95","94","95"]
 print(marks)
 print(type(marks))
+if 95 in marks:
+    print("YES")
+else:
+    print("NO")
 print(marks[0])
 print(marks[1])
 print(marks[2])
