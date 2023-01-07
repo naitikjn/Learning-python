@@ -37,24 +37,38 @@
 # print(l)
 # l.append(5)
 # print(l)
+#
+# fruits = ["apple","mango","banana","orange","Grapes"]
+# print(fruits)
+# vegetables = ["tomato","potato","peas","chilli"]
+# print(vegetables)
+# fruits.append("watermelon")
+# print(fruits)
+# fruits.reverse()
+# print(fruits)
+# fruits.sort()
+# print(fruits)
+# fruits.clear()
+# print(fruits)
+# fruits.copy()
+# print(fruits)
+#
+#
+# fruits.pop()
+# print(fruits)
+# fruits.index
+# print(fruits)
 
-fruits = ["apple","mango","banana","orange","Grapes"]
-print(fruits)
-vegetables = ["tomato","potato","peas","chilli"]
-print(vegetables)
-fruits.append("watermelon")
-print(fruits)
-fruits.reverse()
-print(fruits)
-fruits.sort()
-print(fruits)
-fruits.clear()
-print(fruits)
-fruits.copy()
-print(fruits)
+marks = ["98","99","95","94","95"]
+print(marks)
+print(type(marks))
+print(marks[0])
+print(marks[1])
+print(marks[2])
+print(marks[3])
+print(marks[4])
+subjects = ["English","Hindi","Maths","Science","Social Studies"]
+print(subjects)
+marks.extend(subjects)
+print(marks)
 
-
-fruits.pop()
-print(fruits)
-fruits.index
-print(fruits)
