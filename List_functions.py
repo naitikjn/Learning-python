@@ -18,6 +18,26 @@
 # Numbers.remove(5)
 # #Numbers.pop()
 # Numbers[2] = 2
+# #lists in python
+# #groceries = ["Nescafe","Horlicks","No.1","fena","Wheel","Vim bar","Lollypop"]
+# #print(groceries[0:5])
+# Numbers = [2,5,4,9,7]
+# #Numbers.sort()
+# #Numbers.reverse()
+# print(max(Numbers))
+# print(min(Numbers))
+# Numbers.append(5)
+# print(Numbers)
+# Numbers = []
+# Numbers.append(25)
+# Numbers.append(15)
+# Numbers.append(26)
+# #Numbers.sort()
+# #Numbers.reverse()
+# Numbers.insert(2 ,5)
+# Numbers.remove(5)
+# #Numbers.pop()
+# Numbers[2] = 2
 # print(Numbers)
 # # Mutable = can change
 # # Immutable = can not change
