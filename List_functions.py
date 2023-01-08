@@ -59,6 +59,7 @@
 # fruits.index
 # print(fruits)
 
+
 marks = ["98","99","95","94","95"]
 print(marks)
 print(type(marks))
