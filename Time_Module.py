@@ -27,4 +27,5 @@ t = time.strftime('%H:%M:%S')
 #   print("Good Afternoon Sir!")
 # elif(hour>=17 and hour<=24):
 #   print("Good Night sir!")
-print(t)
+
+print(t, "Today time")

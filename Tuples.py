@@ -15,6 +15,6 @@ else:
 tup2 = tup[1:4]
 print(tup2)
 tup.extend(tup2)
-print(tup)
+print(tupbb)
 
 
