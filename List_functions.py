@@ -80,20 +80,23 @@
 # print(fruits)
 
 
-marks = ["98","99","95","94","95"]
-print(marks)
-print(type(marks))
-if 95 in marks:
-    print("YES")
-else:
-    print("NO")
-print(marks[0])
-print(marks[1])
-print(marks[2])
-print(marks[3])
-print(marks[4])
-subjects = ["English","Hindi","Maths","Science","Social Studies"]
-print(subjects)
-marks.extend(subjects)
-print(marks)
+# marks = ["98","99","95","94","95"]
+# print(marks)
+# print(type(marks))
+# if 95 in marks:
+#     print("YES")
+# else:
+#     print("NO")
+# print(marks[0])
+# print(marks[1])
+# print(marks[2])
+# print(marks[3])
+# print(marks[4])
+# subjects = ["English","Hindi","Maths","Science","Social Studies"]
+# print(subjects)
+# marks.extend(subjects)
+# print(marks)
 
+# List comprehension
+numbers = [a * a for a in range(5)]
+print(numbers)
