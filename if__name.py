@@ -109,10 +109,24 @@ if __name__ == '__main__':
             init_exercise = time()
             log_now("Physical Activity done at")
 
+            while True:
+                if time() - init_water > watersecs:
+                    print("Water Drinking time. Enter 'drank' to stop the alarm.")
+                    musiconloop('water.mp3', 'drank')
+                    init_water = time()
+                    log_now("Drank Water at")
 
+                if time() - init_eyes > eyessecs:
+                    print("Eye exercise time. Enter 'doneeyes' to stop the alarm.")
+                    musiconloop('eyes.mp3', 'doneeyes')
+                    init_eyes = time()
+                    log_now("Eyes Relaxed at")
 
-
-
+                if time() - init_exercise > exsecs:
+                    print("Physical Activity Time. Enter 'donephy' to stop the alarm.")
+                    musiconloop('physical.mp3', 'donephy')
+                    init_exercise = time()
+                    log_now("Physical Activity done at")
 
             break
 
