@@ -103,11 +103,7 @@ if __name__ == '__main__':
             init_eyes = time()
             log_now("Eyes Relaxed at")
 
-        if time() - init_exercise > exsecs:
-            print("Physical Activity Time. Enter 'donephy' to stop the alarm.")
-            musiconloop('physical.mp3', 'donephy')
-            init_exercise = time()
-            log_now("Physical Activity done at")
+
 
             while True:
                 if time() - init_water > watersecs:
