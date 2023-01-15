@@ -295,5 +295,23 @@ def textToSpeech(text, filename):
 def mergeAudios(audios):
     combined = AudioSegment.empty()
 
+     announcement.export(f"announcement_{item['train_no']}_{index + 1}.mp3", format="mp3")
+
+
+if __name__ == "__main__":
+    print("Generating Skeleton...")
+    generateSkeleton()
+    print("Now Generating Announcement...")
+    generateAnnouncement("announce_hindi.xlsx")
+def textToSpeech(text, filename):
+    mytext = str(text)
+    language = 'hi'
+    myobj = gTTS(text=mytext, lang=language, slow=False)
+    myobj.save(filename)
+
+
+# This function returns pydubs audio segment
+def mergeAudios(audios):
+    combined = AudioSegment.empty()
 
 
