@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time_Module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Time_Module.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,13 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664024428565</updated>
-    </task>
-    <task id="LOCAL-00072" summary="hello">
-      <created>1671803167090</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1671803167090</updated>
     </task>
     <task id="LOCAL-00073" summary="hello">
       <created>1671803192509</created>
@@ -553,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673791104660</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="hello">
+      <created>1673791128320</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1673791128320</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
