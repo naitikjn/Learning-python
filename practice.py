@@ -1644,6 +1644,3 @@ def musiconloop(file,stopper
 # harry.name = "Harry"
 # harry.salary = 455
 # harry.role = "Instructor"
-#
-# rohan.name = "Rohan"
-# rohan.salary = 4554
