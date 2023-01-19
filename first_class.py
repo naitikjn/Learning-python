@@ -161,12 +161,3 @@
 # # rohan.name = "Rohan"
 # # rohan.salary = 4554
 # # rohan.role = "Student"
-# #
-# # print(Employee.no_of_leaves)
-# # print(Employee.__dict__)
-# # Employee.no_of_leaves = 9
-# # print(Employee.__dict__)
-# # print(Employee.no_of_leaves)
-#
-#     for
-opper
