@@ -6,12 +6,7 @@
 # # larry = Student()
 # #
 
-# #
-# # class Employee:
-# #     no_of_leaves = 8
-# #     pass
-# #
-# # harry = Employee()
+
 # # rohan = Employee()
 # #
 # # harry.name = "Harry"
