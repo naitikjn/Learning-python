@@ -162,7 +162,5 @@
 # # rohan.salary = 4554
 # # rohan.role = "Student"
 # #
-# # harry.name = "Harry"
-# # harry.salary = 455
-# # harry.role = "Instructor"
+
 t"
