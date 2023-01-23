@@ -120,17 +120,3 @@
 # # larry.std = 9
 # # larry.subjects = ["hindi", "physics"]
 # # print(harry.section, larry.subjects)
-# #
-# #
-# # class Employee:
-# #     no_of_leaves = 8
-# #     pass
-# #
-# # harry = Employee()
-# # rohan = Employee()
-# #
-# # harry.name = "Harry"
-# # harry.salary = 455
-# # harry.role = "Instructor"
-
-t"
