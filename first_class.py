@@ -64,17 +64,5 @@
 #             mixer.music.stop()
 #             break
 #
-# if __name__ == '__main__':
-#     musiconloop("water.mp3","stop")
-#
-# # class Student:
-# #     pass
-# #
-# #
-# # harry = Student()
-# # larry = Student()
-# #
-# # harry.name = "Harry"
-# # harry.std = 12
-# # harry.section = 1
+ection = 1
 # # larry.std = 9
