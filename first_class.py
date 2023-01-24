@@ -49,17 +49,3 @@
 # # Employee.no_of_leaves = 9
 # # print(Employee.__dict__)
 # # print(Employee.no_of_leaves)
-#
-#
-#
-#
-# for pygame import mixer
-# def musiconloop(file,stopper):
-#     mixer.init()
-#     mixer.music.load(file)
-#     mixer.music.play()
-#     while True:
-#         a = input()
-#         if a == stopper:
-#             mixer.music.stop()
-#
