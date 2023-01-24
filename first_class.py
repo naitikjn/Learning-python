@@ -62,7 +62,4 @@
 #         a = input()
 #         if a == stopper:
 #             mixer.music.stop()
-#             break
 #
-ection = 1
-# # larry.std = 9
