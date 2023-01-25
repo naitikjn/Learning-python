@@ -71,16 +71,16 @@
 #             print(s[i].upper(),end='')
 #     else:
 #         print("@" ,end='')
-a = "EXAM2021"
-b = " "
-i = 0
-while i<len(a):
-    if a[i]>="A" and a[i]<= 'M':
-        b =b + a[i+1]
-    elif a[i] >= "0" and a[i] <= '9':
-        b =b + a[i-1]
-
-    else:
-        b = b + '*'
-    i = i + 1
-print(b)
+# a = "EXAM2021"
+# b = " "
+# i = 0
+# while i<len(a):
+#     if a[i]>="A" and a[i]<= 'M':
+#         b =b + a[i+1]
+#     elif a[i] >= "0" and a[i] <= '9':
+#         b =b + a[i-1]
+#
+#     else:
+#         b = b + '*'
+#     i = i + 1
+# print(b)
