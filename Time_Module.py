@@ -216,11 +216,10 @@
 # # This function returns pydubs audio segment
 # def mergeAudios(audios):
 # #     combined = AudioSegment.empty()
-# i = 1
-# while (i<5):
-#     print(i)
-#     i = i * 2
+# w = 90
+# while (w>60):
+#     print(w)
+#     w = w - 50
 
-
-l = [1,2,3,4,5,6]
-print(l[2:20])
+a = 5
+  print a
