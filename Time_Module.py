@@ -209,10 +209,4 @@
 # def textToSpeech(text, filename):
 #     mytext = str(text)
 #     language = 'hi'
-#     myobj = gTTS(text=mytext, lang=language, slow=False)
-#     myobj.save(filename)
-#
-#
-# # This function returns pydubs audio segment
-# def mergeAudios(audios):
 
