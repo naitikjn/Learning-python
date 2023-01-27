@@ -221,5 +221,3 @@
 #     print(w)
 #     w = w - 50
 
-a = 5
-  print a
