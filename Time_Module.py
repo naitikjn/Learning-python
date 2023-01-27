@@ -215,9 +215,4 @@
 #
 # # This function returns pydubs audio segment
 # def mergeAudios(audios):
-# #     combined = AudioSegment.empty()
-# w = 90
-# while (w>60):
-#     print(w)
-#     w = w - 50
 
