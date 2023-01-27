@@ -192,11 +192,3 @@
 #
 # # This function returns pydubs audio segment
 # def mergeAudios(audios):
-#     combined = AudioSegment.empty()
-#
-#
-# def mergeAudios(audios):
-#     combined = AudioSegment.empty()
-#
-#      announcement.export(f"announcement_{item['train_no']}_{index + 1}.mp3", format="mp3")
-#
