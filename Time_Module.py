@@ -206,7 +206,4 @@
 #     generateSkeleton()
 #     print("Now Generating Announcement...")
 #     generateAnnouncement("announce_hindi.xlsx")
-# def textToSpeech(text, filename):
-#     mytext = str(text)
-#     language = 'hi'
 
