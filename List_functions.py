@@ -98,5 +98,9 @@
 # print(marks)
 
 # List comprehension
-numbers = [a * a for a in range(5)]
-print(numbers)
+# numbers = [a * a for a in range(5)]
+# print(numbers)
+l1 = [23,45,19,77,10,22]
+l1.sort()
+print(l1)
+max(l1)
