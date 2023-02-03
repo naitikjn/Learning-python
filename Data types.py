@@ -23,131 +23,49 @@
 # 3. str()
 
 # variables & data types
-fruit = "Mango"
-mangoLen = len(fruit)
-print(mangoLen)
+# fruit = "Mango"
+# mangoLen = len(fruit)
+# print(mangoLen)
 # print(fruit[0:4]) # including 0 but not 4
 # print(fruit[1:4]) # including 1 but not 4
 # print(fruit[:5])
 # print(fruit[0:-3])
 # print(fruit[:len(fruit)-3])
-print(fruit[-1:len(fruit) - 3])
-print(fruit[-3:-1])
+# print(fruit[-1:len(fruit) - 3])
+# print(fruit[-3:-1])
 
 # Quick Quiz:
 # nm = "Harry"
 # print(nm[-4:-2])
 # @codewithharry
 
+# list1 = [1,2,3,4,5]
+# str1 = 6
+# for i in list1:
+#     Str1 = str1 + i
+# print(Str1)
 
-#Healthy Programmer
-# 9am - 5pm
-# Water - water.mp3 (3.5 litres) - Drank - log - Every 40 min
-# Eyes - eyes.mp3 - every 30 min - EyDone - log - Every 30 min
-# Physical activity - physical.mp3 every - 45 min - ExDone - log
-# Rules
-# Pygame module to play audio
+# i = 0
+# while (i<25):
+#     print("Python")
+#     i = i + 1
 
-from pygame import mixer
-from datetime import datetime
-from time import time
-
-def musiconloop(file, stopper):
-    mixer.init()
-    mixer.music.load(file)
-    mixer.music.play()
-    while True:
-        input_of_user = input()
-        if input_of_user == stopper:
-            mixer.music.stop()
-            break
-
-def log_now(msg):
-    with open("mylogs.txt", "a") as f:
-        f.write(f"{msg} {datetime.now()}\n")
-
-if __name__ == '__main__':
-    # musiconloop("water.mp3", "stop")
-    init_water = time()
-    init_eyes = time()
-    init_exercise = time()
-    watersecs = 40*60
-    exsecs = 30*60
-    eyessecs = 45*60
-
-    while True:
-        if time() - init_water > watersecs:
-            print("Water Drinking time. Enter 'drank' to stop the alarm.")
-            musiconloop('water.mp3', 'drank')
-            init_water = time()
-            log_now("Drank Water at")
-
-        if time() - init_eyes >eyessecs:
-            print("Eye exercise time. Enter 'doneeyes' to stop the alarm.")
-            musiconloop('eyes.mp3', 'doneeyes')
-            init_eyes = time()
-            log_now("Eyes Relaxed at")
-
-        if time() - init_exercise > exsecs:
-            print("Physical Activity Time. Enter 'donephy' to stop the alarm.")
-            musiconloop('physical.mp3', 'donephy')
-            init_exercise = time()
-            log_now("Physical Activity done at")
-
-
-
-
-
-from pygame import mixer
-from datetime import datetime
-from time import time
-
-def musiconloop(file, stopper):
-    mixer.init()
-    mixer.music.load(file)
-    mixer.music.play()
-    while True:
-        input_of_user = input()
-        if input_of_user == stopper:
-            mixer.music.stop()
-            break
-
-def log_now(msg):
-    with open("mylogs.txt", "a") as f:
-        f.write(f"{msg} {datetime.now()}\n")
-
-if __name__ == '__main__':
-    # musiconloop("water.mp3", "stop")
-    init_water = time()
-    init_eyes = time()
-    init_exercise = time()
-    watersecs = 40*60
-    exsecs = 30*60
-    eyessecs = 45*60
-
-    while True:
-        if time() - init_water > watersecs:
-            print("Water Drinking time. Enter 'drank' to stop the alarm.")
-            musiconloop('water.mp3', 'drank')
-            init_water = time()
-            log_now("Drank Water at")
-
-        if time() - init_eyes >eyessecs:
-            print("Eye exercise time. Enter 'doneeyes' to stop the alarm.")
-            musiconloop('eyes.mp3', 'doneeyes')
-            init_eyes = time()
-            log_now("Eyes Relaxed at")
-
-        if time() - init_exercise > exsecs:
-            print("Physical Activity Time. Enter 'donephy' to stop the alarm.")
-            musiconloop('physical.mp3', 'donephy')
-            init_exercise = time()
-            log_now("Physical Activity done at")
-
-
-
-
-
-
-
-
+#
+# tup1 = (1,2,3)
+# tup = tup1*2
+# print(tup)
+# x = [1,3,6, [18]]
+# y = list(x)
+# x[3][0] =15
+# x[1] = 12
+# print(y)
+# x = 'ARIHANT'
+# for i in range(len(x)):
+#     x[i].lower()
+# print(x)
+y = str(123)
+x = "hello" * 3
+print(x,y)
+x ="hello" + "world"
+y = len(x)
+print(y,x)
