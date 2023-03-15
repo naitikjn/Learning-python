@@ -64,7 +64,6 @@
 
 # s = "CBSE digital india"
 # for i in range(len(s)-1,0,-1):
-#     if s[i].isupper():
 #         print(s[i].lower(),end='')
 #     elif i%2==0:
 #         if s[i].islower():

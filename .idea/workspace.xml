@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello" />
+    <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hello">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/String_slicing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Lambda_Function">
+  <component name="RunManager" selected="Python.String_slicing">
     <configuration name="Data types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Time_Module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="String_slicing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Time_Module.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_slicing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.String_slicing" />
         <item itemvalue="Python.Lambda_Function" />
         <item itemvalue="Python.List_functions" />
         <item itemvalue="Python.Dictionary_functions" />
         <item itemvalue="Python.Data types" />
-        <item itemvalue="Python.Time_Module" />
       </list>
     </recent_temporary>
   </component>
@@ -206,41 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664024428565</updated>
-    </task>
-    <task id="LOCAL-00174" summary="hello">
-      <created>1674572169017</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1674572169017</updated>
-    </task>
-    <task id="LOCAL-00175" summary="hello">
-      <created>1674659430668</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1674659430668</updated>
-    </task>
-    <task id="LOCAL-00176" summary="hello">
-      <created>1674659461354</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1674659461354</updated>
-    </task>
-    <task id="LOCAL-00177" summary="hello">
-      <created>1674659497747</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1674659497747</updated>
-    </task>
-    <task id="LOCAL-00178" summary="hello">
-      <created>1674659543118</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1674659543118</updated>
     </task>
     <task id="LOCAL-00179" summary="hello">
       <created>1674659570128</created>
@@ -550,7 +519,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675960746151</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="hello">
+      <created>1676478898867</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478898867</updated>
+    </task>
+    <task id="LOCAL-00224" summary="hello">
+      <created>1676478907254</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478907255</updated>
+    </task>
+    <task id="LOCAL-00225" summary="hello">
+      <created>1676478918744</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478918744</updated>
+    </task>
+    <task id="LOCAL-00226" summary="hello">
+      <created>1676478930321</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478930321</updated>
+    </task>
+    <task id="LOCAL-00227" summary="hello">
+      <created>1676478949197</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1676478949197</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
