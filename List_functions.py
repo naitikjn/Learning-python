@@ -99,10 +99,10 @@
 
 # List comprehension
 # numbers = [a * a for a in range(5)]
-# print(numbers)
-l1 = [23,45,19,77,10,22]
-l1.sort()
-print(l1)
-print(max(l1))
-print(min(l1))
-print(l1)
+# # print(numbers)
+# l1 = [23,45,19,77,10,22]
+# l1.sort()
+# print(l1)
+# print(max(l1))
+# print(min(l1))
+# print(l1)
