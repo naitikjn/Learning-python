@@ -36,10 +36,10 @@
 #
 #
 
-a = 10
-b = 10
-gmean = (a*b)/(a+b)
-print(gmean)
+# a = 10
+# b = 10
+# gmean = (a*b)/(a+b)
+# print(gmean)
 
 def isgreator(a,b):
     if (a>b):
