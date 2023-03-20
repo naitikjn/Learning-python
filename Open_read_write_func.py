@@ -40,7 +40,7 @@ while True:
   print(f"Marks of student {i} in English is: {m2*2}")
   print(f"Marks of student {i} in SST is: {m3*2}")
 
-#   print(line)
+  print(line)
 
 f = open('myfile2.txt', 'w')
 lines = ['line 1\n', 'line 2\n', 'line 3\n']
