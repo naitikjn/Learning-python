@@ -6,22 +6,22 @@
 # else:
 #   simply reverse the string
 
-secret = (input("Enter Your Message:"))
-s = list(secret)
-print(s)
-
-print("Your Message Is Converted Into Secret Code")
-
-print("LOADING")
-if (len(secret)>=3):
-    secret.append(len(secret[0]))
-    secret.pop(0)
-    h= "hjv"
-    secret.append(h)
-    j = "woi"
-    secret.insert(j[0])
-    print(secret)
-else:
-    print(secret.reverse())
-
-
+# secret = (input("Enter Your Message:"))
+# s = list(secret)
+# print(s)
+#
+# print("Your Message Is Converted Into Secret Code")
+#
+# print("LOADING")
+# if (len(secret)>=3):
+#     secret.append(len(secret[0]))
+#     secret.pop(0)
+#     h= "hjv"
+#     secret.append(h)
+#     j = "woi"
+#     secret.insert(j[0])
+#     print(secret)
+# else:
+#     print(secret.reverse())
+#
+#
