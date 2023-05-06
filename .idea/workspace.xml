@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0ff7787-a1ff-470f-bb30-98b8b5b9a20f" name="Changes" comment="hellom">
-      <change afterPath="$PROJECT_DIR$/Projectsss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Typecasting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projectsss.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projectsss.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Projectsss">
-    <configuration name="Lambda_Function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FirstProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lambda_Function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Typecasting">
     <configuration name="Open_read_write_func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String_slicing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Typecasting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Typecasting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Typecasting" />
         <item itemvalue="Python.Projectsss" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.Open_read_write_func" />
         <item itemvalue="Python.String_slicing" />
-        <item itemvalue="Python.Lambda_Function" />
       </list>
     </recent_temporary>
   </component>
@@ -209,27 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664024428565</updated>
-    </task>
-    <task id="LOCAL-00222" summary="hello">
-      <created>1675960746151</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1675960746151</updated>
-    </task>
-    <task id="LOCAL-00223" summary="hello">
-      <created>1676478898867</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1676478898867</updated>
-    </task>
-    <task id="LOCAL-00224" summary="hello">
-      <created>1676478907254</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1676478907255</updated>
     </task>
     <task id="LOCAL-00225" summary="hello">
       <created>1676478918744</created>
@@ -553,7 +533,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679757795832</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="hellom">
+      <created>1683295020535</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1683295020535</updated>
+    </task>
+    <task id="LOCAL-00272" summary="hellom">
+      <created>1683295026153</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1683295026153</updated>
+    </task>
+    <task id="LOCAL-00273" summary="hellom">
+      <created>1683295686033</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1683295686033</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
