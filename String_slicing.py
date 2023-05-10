@@ -45,5 +45,10 @@
 # print(17/4)
 # print(str(17//4))
 # print(str(17/4))
-my = '@@CBSE Examination 2022@@'
-print(my[::-2])
+# my = '@@CBSE Examination 2022@@'
+# print(my[::-2])
+
+name = '''hey nj , 
+i would like to tell you about the incident '''
+print(name)
+
