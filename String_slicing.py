@@ -48,7 +48,10 @@
 # my = '@@CBSE Examination 2022@@'
 # print(my[::-2])
 
-name = '''hey nj , 
-i would like to tell you about the incident '''
-print(name)
+# name = '''hey nj ,
+# i would like to tell you about the incident '''
+# print(name)
 
+string = "india,pakistan"
+print(string)
+print(len(string[0:6]))
