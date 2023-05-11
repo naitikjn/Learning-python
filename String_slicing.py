@@ -54,4 +54,9 @@
 
 string = "india,pakistan"
 print(string)
-print(len(string[0:6]))
+print(len(string.center(15)))
+print(string.center(50))
+print(string.count('i'))
+str1 = "he is my bestfriend and he is smart"
+print(str1.find("z"))   # -1 is print when no output is find in code.
+
