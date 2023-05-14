@@ -80,11 +80,15 @@ i =0
 #         break
 # print("Done with the loop")
 
-i = 1
-while True:
-    print(i)
-    i = i + 1
+# i = 1
+# while True:
+#     print(i)
+#     i = i + 1
+#
+#     if (i==30):
+#         print("Loop is over")
+#         break
 
-    if (i==30):
-        print("Loop is over")
-        break
+
+for i in range(0,101,2,):
+    print("HELLO",i)
