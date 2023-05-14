@@ -7,10 +7,14 @@ match x:
     # case with if-condition
     case 4:
         print("case is 4")
+    case _ if x ==10:
+        print("case is", x)
 
     case _ if x != 90:
         print(x, "is not 90")
     case _ if x != 80:
         print(x, "is not 80")
+    case _ if 5 != x:
+        print("case is",x)
     case _:
         print(x)
