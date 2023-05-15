@@ -88,7 +88,19 @@ i =0
 #     if (i==30):
 #         print("Loop is over")
 #         break
+#
+#
+# for i in range(0,101,2,):
+#     print("HELLO",i)
+# print("*********** FOR LOOPS ************".center(50))
+# name  = "RUDRA PRATAP SINGH GURJAR"
+# for i in name :
+#     print(i)
+#     if (i=='T'):
+#         print("There is something special")
+#
+# Name = name.split()
+# print(Name)
 
-
-for i in range(0,101,2,):
-    print("HELLO",i)
+for i in range(1,10000):
+ print(i)
