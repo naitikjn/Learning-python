@@ -37,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/riyaj/PycharmProjectspython riya&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/riyaj/PycharmProjectspython riya",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.Loops">
     <configuration name="Loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
@@ -209,20 +209,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664024428565</updated>
-    </task>
-    <task id="LOCAL-00241" summary="hello">
-      <created>1679152556900</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1679152556900</updated>
-    </task>
-    <task id="LOCAL-00242" summary="hello">
-      <created>1679153713510</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1679153713514</updated>
     </task>
     <task id="LOCAL-00243" summary="hello">
       <created>1679153732712</created>
@@ -553,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684029857175</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="hellom">
+      <created>1684115778031</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1684115778039</updated>
+    </task>
+    <task id="LOCAL-00291" summary="hellom">
+      <created>1684115786736</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1684115786737</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
