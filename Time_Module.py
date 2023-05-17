@@ -21,17 +21,17 @@ import time
 # hour = int(time.strftime('%H'))
 # hour = int(input("Enter hour: "))
 # print(hour)
-
-print("EXERCISE 2".center(50))
-print("GOOD MORNING SIR".center(50))
-import time
-t= (time.strftime('%H:%M:%S').center(50))
-print(t)
-hour = int(input("Enter hour: "))
-print(hour)
-if (hour<=12):
-    print("Good Morning".center(50))
-elif (hour<=16):
-    print("Good Afternoon".center(50))
-else:
-    print("GOOD EVENING".center(50))
+#
+# print("EXERCISE 2".center(50))
+# print("GOOD MORNING SIR".center(50))
+# import time
+# t= (time.strftime('%H:%M:%S').center(50))
+# print(t)
+# hour = int(input("Enter hour: "))
+# print(hour)
+# if (hour<12):
+#     print("Good Morning".center(50))
+# elif (hour<=16):
+#     print("Good Afternoon".center(50))
+# else:
+#     print("GOOD EVENING".center(50))
