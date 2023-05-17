@@ -104,9 +104,9 @@
 #
 # for i in range(1,10000):
 #  print(i)
+# #
 #
-
-i=  0
-while(i<5):
-    print(i,"HELLO".center(50))
-    i= i + 1
+# i=  0
+# while(i<5):
+#     print(i,"HELLO".center(50))
+#     i= i + 1
