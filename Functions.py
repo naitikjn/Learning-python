@@ -41,11 +41,20 @@
 # gmean = (a*b)/(a+b)
 # print(gmean)
 
-def isgreator(a,b):
-    if (a>b):
-        print("A is greator")
-    else:
-        print("B is greator")
-
+# def isgreator(a,b):
+#     if (a>b):
+#         print("A is greator")
+#     else:
+#         print("B is greator")
+print(("FUNCTION IN PYTHON").center(50))
+def SUM(a,b):
+    add = a + b
+a = 75
+b = 80
+if (a>b):
+    print("A is greator and B is smaller")
+else:
+    print("A is smaller and B is greator")
+SUM(a,b)
 
 
