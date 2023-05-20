@@ -24,111 +24,28 @@
 # else:
 #     print(secret.reverse())
 #
-#
-import pygame
-import time
-
-pygame.init()
-
-# Window dimensions
-width = 800
-height = 600
-
-# Colors
-white = (255, 255, 255)
-black = (0, 0, 0)
-red = (255, 0, 0)
-
-# Snake dimensions
-snake_size = 10
-snake_speed = 15
-
-# Create the game window
-window = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Snake Game')
-
-clock = pygame.time.Clock()
-
-font_style = pygame.font.SysFont(None, 50)
-score_font = pygame.font.SysFont(None, 35)
+import requests
 
 
-def your_score(score):
-    value = score_font.render("Your Score: " + str(score), True, black)
-    window.blit(value, [0, 0])
+def get_weather(api_key, location):
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={location}&appid={api_key}"
+    response = requests.get(url)
+    data = response.json()
+
+    if data["cod"] == "404":
+        print("Invalid location. Please try again.")
+        return
+
+    city = data["name"]
+    temperature = data["main"]["temp"]
+    weather_desc = data["weather"][0]["description"]
+
+    print(f"Weather in {city}:")
+    print(f"Temperature: {temperature} K")
+    print(f"Description: {weather_desc}")
 
 
-def our_snake(snake_block, snake_list):
-    for x in snake_list:
-        pygame.draw.rect(window, black, [x[0], x[1], snake_block, snake_block])
-
-
-def message(msg, color):
-    mesg = font_style.render(msg, True, color)
-    window.blit(mesg, [width / 6, height / 3])
-
-
-def game_loop():
-    game_over = False
-    game_close = False
-
-    # Initial position of the snake
-    x1 = width / 2
-    y1 = height / 2
-
-    # Change in position of the snake
-    x1_change = 0
-    y1_change = 0
-
-    # Create the snake body
-    snake_List = []
-    Length_of_snake = 1
-
-    # Generate random coordinates for the food
-    foodx = round((round(time.time() * 1000) % width - snake_size) / 10.0) * 10.0
-    foody = round((round(time.time() * 1000) % height - snake_size) / 10.0) * 10.0
-
-    while not game_over:
-
-        while game_close:
-            window.fill(white)
-            message("You lost! Press Q-Quit or C-Play Again", red)
-            your_score(Length_of_snake - 1)
-            pygame.display.update()
-
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    game_over = True
-                    game_close = False
-                if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_q:
-                        game_over = True
-                        game_close = False
-                    if event.key == pygame.K_c:
-                        game_loop()
-
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                game_over = True
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_LEFT:
-                    x1_change = -snake_size
-                    y1_change = 0
-                elif event.key == pygame.K_RIGHT:
-                    x1_change = snake_size
-                    y1_change = 0
-                elif event.key == pygame.K_UP:
-                    y1_change = -snake_size
-                    x1_change = 0
-                elif event.key == pygame.K_DOWN:
-                    y1_change = snake_size
-                    x1_change = 0
-
-        if x1 >= width or x1 < 0 or y1 >= height or y1 < 0:
-            game_close = True
-        x1 += x1_change
-        y1 += y1_change
-        window.fill(white)
-        pygame.draw.rect(window, red, [foodx, foody, snake_size, snake_size])
-        snake_Head = []
-
+# Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
+api_key = 'YOUR_API_KEY'
+location = input("Enter a city name: ")
+get_weather(api_key, location)
