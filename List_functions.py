@@ -106,3 +106,8 @@
 # print(max(l1))
 # print(min(l1))
 # print(l1)
+list2 = [15,12,13,14,15]
+# list2.reverse()
+# print(list2)
+# list2.sort( reverse = True )
+# print(list2)
