@@ -25,7 +25,7 @@ print(tup2)
 print(tup1.index(2))
 tup2 = tup1
 # while True:
-#     print("yes")
+#     print("yes")                  infinite loop
 # else:
 #     print("no")
 #
