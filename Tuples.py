@@ -18,17 +18,21 @@
 # print(tupbb)
 #
 #
-tup1 = (1,2,3)
-print(tup1)
-tup2 = (4,5,6)
-print(tup2)
-print(tup1.index(2))
-tup2 = tup1
-# while True:
-#     print("yes")                  infinite loop
-# else:
-#     print("no")
-#
-print(tup2)
-print(tup2.__len__())
-print(tup2.count(2))
+tup4 = ("Hello")
+print(tup4)
+print(tup4.count('l'))
+print(tup4.index('o'))
+
+tup5  = [1,2,3,4,5,5]
+print(tup5)
+tup5[0] = 1
+tup5.append(5)
+t = len(tup5)
+print(t)
+print(tup5)
+a = type(tup5)
+print(a)
+tup5 = tuple
+print(tup5)
+# tup5[0] = 5
+# print(tup5)
