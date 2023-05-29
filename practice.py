@@ -175,9 +175,3 @@
 # #         break
 # #
 # # print(f"Your take home money is {money}")
-#
-#
-#
-#
-#
-#
