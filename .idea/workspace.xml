@@ -209,20 +209,6 @@
       <option name="presentableId" value="Default" />
       <updated>1664024428565</updated>
     </task>
-    <task id="LOCAL-00266" summary="hellom">
-      <created>1679704397125</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1679704397125</updated>
-    </task>
-    <task id="LOCAL-00267" summary="hellom">
-      <created>1679757691056</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1679757691056</updated>
-    </task>
     <task id="LOCAL-00268" summary="hellom">
       <created>1679757698697</created>
       <option name="number" value="00268" />
@@ -552,7 +538,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685152820446</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="hellom">
+      <created>1685323050147</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1685323050147</updated>
+    </task>
+    <task id="LOCAL-00316" summary="hellom">
+      <created>1685323079966</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1685323079966</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
