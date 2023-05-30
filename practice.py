@@ -175,3 +175,23 @@
         break
 
 print(f"Your take home money is {money}")
+# print(marks[4])
+# subjects = ["English","Hindi","Maths","Science","Social Studies"]
+# print(subjects)
+# marks.extend(subjects)
+# print(marks)
+
+# List comprehension
+# numbers = [a * a for a in range(5)]
+# # print(numbers)
+# l1 = [23,45,19,77,10,22]
+# l1.sort()
+# print(l1)
+# print(max(l1))
+# print(min(l1))
+# print(l1)
+list2 = [15,12,13,14,15]
+# list2.reverse()
+# print(list2)
+# list2.sort( reverse = True )
+# print(list2)
