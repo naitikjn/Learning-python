@@ -92,9 +92,9 @@
 # #
 # for i in range(0,101,2,):
 #     print("HELLO",i)
-# print("*********** FOR LOOPS ************".center(50))
-# name  = "RUDRA PRATAP SINGH GURJAR"
-# for i in name :
+print("*********** FOR LOOPS ************".center(50))
+name  = "RUDRA PRATAP SINGH GURJAR"
+for i in name :
     print(i)
     if (i=='T'):
         print("There is something special")
