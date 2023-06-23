@@ -32,8 +32,8 @@
 # # # b = a.format(me, a1)
 # # # print(b)
 # a = f"this is {me} {a1} {math.cos(65)}"
-# # time
-# print(a)
+# time
+print(a)
 #
 letter = "Hey my name is {1} and I am from {0}"
 country = "India"
